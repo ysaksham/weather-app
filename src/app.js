@@ -91,7 +91,7 @@ app.get('*', (req, res) => {
     res.render('404', {
         title: '4044',
         name: 'Yachit Saksham',
-        errorMessage: 'Page not found.'
+        errorMessage: 'Page is not found.'
     })
 })
 
